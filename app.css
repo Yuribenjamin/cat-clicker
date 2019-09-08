@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1C2938;
+}
+
+
+.cats-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cat {
+  text-align: center;
+  padding: 10px;
+}
